@@ -5,4 +5,3 @@ Account
    :maxdepth: 1
 
    aergo-key
-   sign-and-verify
