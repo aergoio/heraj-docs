@@ -1,13 +1,14 @@
 BlockOperation
 ==============
 
+Provides block related operations.
+
 Get Block
 ---------
 
 You can fetch block information.
 
 By Hash
-^^^^^^^
 
 .. code-block:: java
 
@@ -15,7 +16,6 @@ By Hash
   Block blockByHash = client.getBlockOperation().getBlock(blockHash);
 
 By Height
-^^^^^^^^^
 
 .. code-block:: java
 
@@ -28,7 +28,6 @@ Get Block Metadata
 You can fetch block metadata information only.
 
 By Hash
-^^^^^^^
 
 .. code-block:: java
 
@@ -36,7 +35,6 @@ By Hash
   BlockMetadata metadataByHash = client.getBlockOperation().getBlockMetadata(blockHash);
 
 By Height
-^^^^^^^^^
 
 .. code-block:: java
 
@@ -49,7 +47,6 @@ List Block Metadata
 You can fetch multiple blocks with a list size. Size maximum is 1000.
 
 By Hash
-^^^^^^^
 
 It fetch blocks backwardly from provided hash with a given size.
 
@@ -60,7 +57,6 @@ It fetch blocks backwardly from provided hash with a given size.
       .listBlockMetadatas(blockHash, 100);
 
 By Height
-^^^^^^^^^
 
 It fetch blocks backwardly from provided height with a given size.
 
@@ -75,8 +71,7 @@ Subscription
 
 You can subscribe new block everytime it's created.
 
-Block
-^^^^^
+Subscribe block
 
 .. code-block:: java
 
@@ -103,8 +98,7 @@ Block
   // unsubscribe block stream
   blockSubscription.unsubscribe();
 
-Block Metadata
-^^^^^^^^^^^^^^
+Subscribe block metadata
 
 .. code-block:: java
 

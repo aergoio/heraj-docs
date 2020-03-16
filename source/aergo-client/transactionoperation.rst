@@ -1,6 +1,8 @@
 TrasactionOperation
 ===================
 
+Provides transaction related operations.
+
 Make a transaction
 ------------------
 
