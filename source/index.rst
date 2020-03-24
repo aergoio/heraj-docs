@@ -11,7 +11,7 @@ Currently, there is heraj, herajs, and herapy. They all implement similar API bu
    :caption: User Documentation
 
    introduction/index
-   account/index
+   model/index
    aergo-client/index
    wallet-api/index
    contract-api/index

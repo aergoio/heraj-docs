@@ -5,3 +5,4 @@ Account
    :maxdepth: 1
 
    aergo-key
+   encoding 
