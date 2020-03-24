@@ -1,5 +1,5 @@
-Account
-=======
+Model
+=====
 
 .. toctree::
    :maxdepth: 1
